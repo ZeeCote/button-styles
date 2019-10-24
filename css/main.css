@@ -9,5 +9,66 @@ html {
 
 div {
   padding: .5rem;
+  margin: .8rem;
   text-align: center;
+}
+ /* primary button styles */
+
+.btn {
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border: 3px #333 solid;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* button sizes */
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+/* button colours */
+
+.btn-subtle {
+  border: 3px #ccc solid;
+  background: #ccc;
+  color: #fff;
+}
+
+.btn-ghost {
+  border: 3px #000 solid;
+  background: #fff;
+  color: #000;
+}
+
+.btn-warning {
+  border: 3px #f33 solid;
+  background: #f33;
+  color: #fff;
+}
+
+/* button hovers */
+
+.btn:hover {
+  border: 3px #000 solid;
+  background: #000;
+}
+
+.btn-subtle:hover,
+.btn-ghost:hover {
+  border: 3px #666 solid;
+  background: #666;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  border: 3px #933 solid;
+  background: #933;
 }
