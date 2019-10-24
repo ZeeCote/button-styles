@@ -9,10 +9,10 @@ html {
 
 div {
   padding: .5rem;
-  margin: .8rem;
   text-align: center;
 }
- /* primary button styles */
+
+/* primary button styles */
 
 .btn {
   font-size: 1.125rem;
@@ -22,6 +22,7 @@ div {
   background: #333;
   color: #fff;
   text-decoration: none;
+  display: inline-block;
 }
 
 /* button sizes */
@@ -37,19 +38,19 @@ div {
 /* button colours */
 
 .btn-subtle {
-  border: 3px #ccc solid;
+  border-color: #ccc;
   background: #ccc;
   color: #fff;
 }
 
 .btn-ghost {
-  border: 3px #000 solid;
+  border-color: #000;
   background: #fff;
   color: #000;
 }
 
 .btn-warning {
-  border: 3px #f33 solid;
+  border-color: #f33;
   background: #f33;
   color: #fff;
 }
@@ -57,18 +58,23 @@ div {
 /* button hovers */
 
 .btn:hover {
-  border: 3px #000 solid;
+  border-color: #000;
   background: #000;
 }
 
-.btn-subtle:hover,
+.btn-subtle:hover {
+  border-color: #666;
+  background: #666;
+  color: #fff;
+}
+
 .btn-ghost:hover {
-  border: 3px #666 solid;
+  border-color: #666;
   background: #666;
   color: #fff;
 }
 
 .btn-warning:hover {
-  border: 3px #933 solid;
+  border-color: #933;
   background: #933;
 }
